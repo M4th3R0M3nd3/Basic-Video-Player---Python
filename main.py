@@ -18,7 +18,7 @@ def verificar_login(janela_login):
     resultado = cursor.fetchone()
 
     if resultado:
-        resultado_label.config(text="Login bem-sucedido!")
+        resultado_label.config(text="Login bem-sucedido!!")
         # Após o login bem-sucedido, chame a função para criar a área logada
         criar_janela_logado()
 
